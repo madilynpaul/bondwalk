@@ -2,6 +2,11 @@ name: bondwalk
 channels:
   - conda-forge
 dependencies: 
+  - openff-toolkit < 0.11
+  - openff-forcefields
   - openmm
+  - openmmforcefields >=0.11.2
   - mbuild
   - jupyter
+  - py3Dmol
+  - openbabel
