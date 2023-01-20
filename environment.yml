@@ -1,0 +1,7 @@
+name: bondwalk 
+channels:
+  - conda-forge
+dependencies: 
+  - openmm
+  - mbuild
+  - jupyter
